@@ -76,7 +76,6 @@ const compose = (str1, str2) => {
     result.push(part1 + part2);
   })
 
-  console.log(result)
   return result.join('\n');
 }
 
